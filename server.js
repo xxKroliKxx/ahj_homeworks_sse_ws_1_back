@@ -27,3 +27,4 @@ wsServer.on('connection', function connection(ws, req) {
 });
 
 server.listen(port);
+console.log('server: port: ' + port)
