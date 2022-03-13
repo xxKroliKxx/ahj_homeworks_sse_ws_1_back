@@ -1,0 +1,24 @@
+GET http://localhost:80/v1/users
+
+###
+
+GET http://localhost:8000/v1/tickets/6
+
+###
+
+POST http://localhost:80/v1/users
+Content-Type: application/json
+
+{
+  "name": "Алексей"
+}
+
+### 1f01a202-9eac-4479-a32f-934794253f5b 7783f388-b5c4-464a-ad78-890bcfe82d05
+
+POST http://localhost:80/v1/session
+Content-Type: application/json
+
+{
+  "sender": "eb6cce1f-5396-43bc-ac68-6653a35efabc",
+  "addressee": "3d4dd520-8222-46b5-ab7d-8fee9b3a1d35"
+}

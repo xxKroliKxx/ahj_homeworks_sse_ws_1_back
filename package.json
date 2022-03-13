@@ -1,0 +1,31 @@
+{
+  "name": "ahj_homeworks_sse_ws_1_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxKroliKxx/ahj_homeworks_sse_ws_1_back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxKroliKxx/ahj_homeworks_sse_ws_1_back/issues"
+  },
+  "homepage": "https://github.com/xxKroliKxx/ahj_homeworks_sse_ws_1_back#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-mount": "^4.0.0",
+    "uuid": "^8.3.2",
+    "ws": "^8.5.0"
+  }
+}
